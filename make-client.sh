@@ -4,7 +4,7 @@
 set -e
 
 # Find IP Address
-SERVER_IP=$(curl -s ipv4.icanhazip.com)
+SERVER_IP=$(curl -s whatismyip.akamai.com)
 if [[ -z "${SERVER_IP}" ]]; then
     SERVER_IP=$(ip a | awk -F"[ /]+" '/global/ && !/127.0/ {print $3; exit}')
 fi
