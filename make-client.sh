@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 #
+############################################################################
+#
+# Adapted from script found at:
+#
+# https://www.rosehosting.com/blog/openvpn-setup-script-for-debian-and-ubuntu/
+#
+############################################################################
+
 
 set -e
 
